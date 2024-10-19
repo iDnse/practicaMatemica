@@ -13,25 +13,57 @@
     </div>
     <main class="container-main">
         <div class="triangulo">
-            <h3>Matematica Calculo triangulo</h3>
-            <p>Ingresa los lados para calcular</p>
+            <h3>Matematica Calculo Triangulo</h3>
+            <p>Ingresa numeros enteros para los lados</p>
             <form action="">
                 <div>
-                    <label for="ladoBaseTrianfulo">Ingresa lado base: </label>
-                    <input type="number" id="ladoBaseTrianfulo" name="ladoBaseTrianfulo">
+                    <label for="ladoBaseTriangulo">Ingresa lado base: </label>
+                    <input value="0" type="number" id="ladoBaseTriangulo" name="ladoBaseTriangulo">
                 </div>
                 <div>
                     <label for="lado1Triangulo">Ingresa lado 1: </label>
-                    <input type="number" id="lado1Triangulo" name="lado1Triangulo">
+                    <input value="0" type="number" id="lado1Triangulo" name="lado1Triangulo">
                 </div>
                 <div>
                     <label for="lado2Triangulo">Ingresa lado 2: </label>
-                    <input type="number" id="lado2Triangulo" name="lado2Triangulo">
+                    <input value="0" type="number" id="lado2Triangulo" name="lado2Triangulo">
                 </div>
             </form>
+            <div class="container-button">
+                <button id="calcularTriangulo">Calcular</button>
+                <button id="resetTriangulo">Reset</button>
+
+            </div>
             <span class="respuestaTriangulo"></span>
         </div>
+        <div class="cuadrado">
+            <h3>Matematica Calculo Cuadrado</h3>
+            <p>Ingresa los lados para calcular</p>
+            <form action="">
+                <div>
+                    <label for="ladoCuadrado1">Ingresa lado 1: </label>
+                    <input value="0" type="number" id="ladoCuadrado1" name="ladoCuadrado1">
+                </div>
+                <div>
+                    <label for="ladoCuadrado2">Ingresa lado 2: </label>
+                    <input value="0" type="number" id="ladoCuadrado2" name="ladoCuadrado2">
+                </div>
+                <div>
+                    <label for="ladoCuadrado3">Ingresa lado 3: </label>
+                    <input value="0" type="number" id="ladoCuadrado3" name="ladoCuadrado3">
+                </div>
+                <div>
+                    <label for="ladoCuadrado4">Ingresa lado 4: </label>
+                    <input value="0" type="number" id="ladoCuadrado4" name="ladoCuadrado4">
+                </div>
+            </form>
+            <div>
+                <button id="calcularCuadrado">Calcular</button>
+                <button id="respuestaCuadrado">Reset</button>
+            </div>
+            <span class="respuestaCuadrado"></span>
+        </div>
     </main>
-
+    <script src="./main.js"></script>
 </body>
 </html>
